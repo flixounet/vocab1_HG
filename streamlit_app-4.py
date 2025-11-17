@@ -112,24 +112,141 @@ def import_docx(file_like, name_hint: str) -> Tuple[str, List[Entry]]:
 
 # -------------------- Built-in Sammlung --------------------
 
-BUILTIN_COLLECTION = {
-    "name": "Evolution_und_Steinzeit",
-    "items": [
-        {"de": "die Urgeschichte", "fr": "la Préhistoire"},
-        {"de": "die Frühgeschichte", "fr": "la Protohistoire"},
-        {"de": "die Altsteinzeit (2,5 Mio.-9500 v. Chr.)", "fr": "le Paléolithique"},
-        {"de": "die Jungsteinzeit (9500 v. Chr.-2200 v. Chr.)", "fr": "le Néolithique"},
-        {"de": "der Archäologe", "fr": "l'archéologue"},
-        {"de": "die Höhlenmalerei", "fr": "la peinture pariétale"},
-        {"de": "der Nomade, die Nomadin", "fr": "un/une nomade"},
-        {"de": "roden, urbar machen", "fr": "défricher"},
-        {"de": "der/die Sesshafte", "fr": "le/la sédentaire"},
-        {"de": "sesshaft werden", "fr": "devenir sédentaire"},
-        {"de": "der Tauschhandel", "fr": "le troc"},
-        {"de": "der Jäger und Sammler", "fr": "le chasseur-cueilleur"},
-        {"de": "der Faustkeil", "fr": "le biface en silex"},
-        {"de": "das Haustier", "fr": "l'animal domestique"},
-    ],
+BUILTIN_COLLECTION = 
+ {
+      "name": "Die_Aufklaerung_Vokabeln",
+      "items": [
+        {
+          "de": "das Amt",
+          "fr": "la fonction"
+        },
+        {
+          "de": "ausstreuen",
+          "fr": "répandre"
+        },
+        {
+          "de": "der Despotismus",
+          "fr": "le despotisme, la dictature"
+        },
+        {
+          "de": "etwas in Frage stellen",
+          "fr": "remettre en cause"
+        },
+        {
+          "de": "die exekutive Gewalt",
+          "fr": "le pouvoir exécutif qui applique les lois"
+        },
+        {
+          "de": "furchtbar",
+          "fr": "monstrueux"
+        },
+        {
+          "de": "die Gesellschaft",
+          "fr": "la société"
+        },
+        {
+          "de": "gemäßigt",
+          "fr": "modéré"
+        },
+        {
+          "de": "die Gewalt",
+          "fr": "le pouvoir"
+        },
+        {
+          "de": "die Gewaltenteilung",
+          "fr": "la séparation des pouvoirs"
+        },
+        {
+          "de": "der Graf",
+          "fr": "le comte"
+        },
+        {
+          "de": "der Knall",
+          "fr": "l’explosion"
+        },
+        {
+          "de": "legislativ",
+          "fr": "législatif, qui fait les lois"
+        },
+        {
+          "de": "das Recht",
+          "fr": "le droit"
+        },
+        {
+          "de": "der Richter",
+          "fr": "le juge"
+        },
+        {
+          "de": "verzichten",
+          "fr": "renoncer à qc."
+        },
+        {
+          "de": "der Adlige",
+          "fr": "le noble"
+        },
+        {
+          "de": "der Adel",
+          "fr": "la noblesse"
+        },
+        {
+          "de": "le clergé",
+          "fr": "der Klerus"
+        },
+        {
+          "de": "der Zeuge",
+          "fr": "le témoin"
+        },
+        {
+          "de": "der Herrscher",
+          "fr": "le souverain"
+        },
+        {
+          "de": "die Freiheit",
+          "fr": "la liberté"
+        },
+        {
+          "de": "die Monarchie",
+          "fr": "la monarchie"
+        },
+        {
+          "de": "der Vertreter",
+          "fr": "le représentant"
+        },
+        {
+          "de": "willkürlich",
+          "fr": "arbitraire"
+        },
+        {
+          "de": "die Forderung",
+          "fr": "la revendication"
+        },
+        {
+          "de": "der König",
+          "fr": "le roi"
+        },
+        {
+          "de": "die Regierungsform",
+          "fr": "la forme de gouvernement"
+        },
+        {
+          "de": "das Volk",
+          "fr": "le peuple"
+        },
+        {
+          "de": "das Privileg",
+          "fr": "le privilège"
+        },
+        {
+          "de": "die Gleichheit",
+          "fr": "l’égalité"
+        },
+        {
+          "de": "der Dritte Stand",
+          "fr": "le Tiers Etat"
+        }
+      ]
+    }
+  ]
 }
 
 def ensure_builtin(store: Dict) -> Dict:
